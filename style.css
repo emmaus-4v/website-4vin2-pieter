@@ -40,7 +40,10 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
-
+.zweefonder {
+    float: bottom;
+    
+}
 .smalltext {
     font-size: 0.7em;
 }
@@ -82,8 +85,12 @@ nav li a:hover {
 
 nav li a.active {
     background-color: rgb(211, 140, 9);
+    list-style-type: armenian ;
 }
 
 
-
+#inhoud {
+    background-color: rgb(0, 0, 0);   
+    text-color: rgb(266, 266, 266);
+}
 
