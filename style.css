@@ -1,6 +1,14 @@
+/* Basisinstellingen */
+* {
+    overflow:hidden; /* zorgt ervoor dat bocen de hoogte hebben van wat erin zit */
+    box-sizing:border-box;
+    border: 2px solid red;
+}
+
 /* Basislayout */
 
 html, body {
+    overflow:visible;
     height: 100%;
     padding: 0;
     background-color: #EEEEEE;  
@@ -36,12 +44,14 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
+img.foto1 {
+    float: right;
     margin-right: 15px;
 }
-.zweefonder {
-    float: bottom;
+.foto2 {
+    position: absolute; 
+    bottom: 120px;
+    right: 0px;
     
 }
 .smalltext {
@@ -57,6 +67,18 @@ a:hover {
     text-decoration: underline;
 }
 
+/* inhoud en menu */
+.inhoudmenu {
+
+}
+.menu {
+    float:left;
+    width:120px;
+}
+.inhoud {
+float: right;
+width: 400px; /*calc (100% - 120px - 100px);*/
+}
 
 /* navigatiebalk */
 nav ul {
@@ -64,14 +86,13 @@ nav ul {
     margin-left:0px;
     margin-right: 10px;
     margin-bottom:10px;
-    margin-top:0px;
+    margin-top:10px;
     border: solid 10px black;
     
 
     background-color: #dddddd;
-    overflow: hidden;
-    width:120px;
-    float:left;
+  
+ 
 }
 
 
@@ -86,12 +107,13 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    color:rgb(211, 140, 9);
+    background-color: black;
 }
 
 nav li a.active {
     background-color: rgb(211, 140, 9);
-    list-style-type: armenian ;
+    
 }
 
 
