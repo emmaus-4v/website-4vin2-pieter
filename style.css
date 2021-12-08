@@ -46,14 +46,17 @@ footer {
 
 img.foto1 {
     float: right;
-    margin-right: 15px;
+    margin: 5px;
+    padding-left: 15px;
 }
 .foto2 {
-    position: absolute; 
-    bottom: 120px;
-    right: 0px;
-    
+    float: right;
+    margin: 5px;
+    padding-left: 15px;
 }
+   
+    
+
 .smalltext {
     font-size: 0.7em;
 }
@@ -76,8 +79,9 @@ a:hover {
     width:120px;
 }
 .inhoud {
-float: right;
-width: 400px; /*calc (100% - 120px - 100px);*/
+float: left;
+
+ width:82%;
 }
 
 /* navigatiebalk */
