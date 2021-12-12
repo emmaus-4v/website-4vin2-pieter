@@ -1,68 +1,70 @@
 /* Basisinstellingen */
 * {
-    overflow:hidden; /* zorgt ervoor dat bocen de hoogte hebben van wat erin zit */
-    box-sizing:border-box;
-    border: 2px solid red;
+    overflow:       hidden; /* zorgt ervoor dat boxen de hoogte hebben van wat erin zit */
+    box-sizing:     border-box;
+    border:         2px solid red; 
 }
 
 /* Basislayout */
 
 html, body {
-    overflow:visible;
-    height: 100%;
-    padding: 0;
-    background-color: #EEEEEE;  
+    overflow:       visible;
+    height:         100%;
+    padding:        0;
+    background-color:#EEEEEE;  
     
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    color:          #303030;
+    font:            Verdana, Arial, Sans-Serif;
 }
 
 
 main {
-    margin: 0 auto;
-    width: 700px;
-    position: relative;
+    margin:         0 auto;
+    height:         100%;
+    width:          1200px;
+    position:       relative;
 }
 
 
 article {
-    text-align: justify;
+    text-align:     justify;
 }
 
 
 header {
-    color: skyblue;
-    text-align: center;
+    color:          skyblue;
+    text-align:     center;
 }
 
 
 footer {
-    text-align: center;
+    text-align:     center;
     padding-bottom: 10px;
+    margin-left: 120px;
 }
 
 
 /* specifieke stijlen */
 
 img.foto1 {
-    float: right;
-    margin: 5px;
-    padding-left: 15px;
+    float:          right;
+    margin:         5px;
+    padding-left:   15px;
 }
 .foto2 {
-    float: right;
-    margin: 5px;
-    padding-left: 15px;
+    float:          right;
+    margin:         5px;
+    padding-left:   15px;
 }
    
     
 
 .smalltext {
-    font-size: 0.7em;
+    font-size:      0.7em;
 }
 
 a {
-    color: skyblue;
+    color:          skyblue;
     text-decoration: none;
 }
 
@@ -71,47 +73,53 @@ a:hover {
 }
 
 /* inhoud en menu */
-.inhoudmenu {
 
-}
+.inhoudmenu 
+
+
 .menu {
+    position:       fixed;
     float:left;
-    width:120px;
+    width:          180px ;
 }
 .inhoud {
-float: left;
+float:              left;
+ margin-left:       15%;
+ width:             85%;
 
- width:82%;
+ font-family:'Trebuchet MS';
+ color:rgb(122, 65, 0);
+ font-size: 30px;
 }
 
 /* navigatiebalk */
-nav ul {
+nav ul { 
     list-style-type:none;
-    margin-left:0px;
-    margin-right: 10px;
-    margin-bottom:10px;
-    margin-top:10px;
-    border: solid 10px black;
+   
+    margin-right:   5px;
+    border: solid   10px black;
     
 
-    background-color: #dddddd;
+    background-color: lightgrey;
   
  
 }
 
 
 
-nav li a {
-    display: block;
-    color:black;
-    text-align: center;
-    padding: 14px 16px;
+nav li a { 
+    display:        block;
+    block-size:     auto ;
+    color:          black;
+    text-align:     left;
+    padding:        14px 16px;
     text-decoration: none;
+    
     
 }
 
 nav li a:hover {
-    color:rgb(211, 140, 9);
+    color:            rgb(211, 140, 9);
     background-color: black;
 }
 
