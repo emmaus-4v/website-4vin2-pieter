@@ -16,6 +16,7 @@ html, body {
     
     color:          #303030;
     font:            Verdana, Arial, Sans-Serif;
+    background-image: url();
 }
 
 
@@ -140,6 +141,5 @@ nav li a.active {
     background-color: rgb(211, 140, 9);
     
 }
-
 
 
