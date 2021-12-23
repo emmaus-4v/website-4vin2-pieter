@@ -80,27 +80,18 @@ a:hover {
 
 
 .menu {
-    /*position:       fixed; */
+    position:       fixed; 
     float:left;
-    width:          179px ;
+    margin-top:-100px;
+    width:          180px ;
 }
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 179px;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
+
 
 .inhoud {
 float:              left;
  margin-left:       15%;
- width:             85%;
-
+ width:             80%;
+ 
  font-family:'Trebuchet MS';
  color:rgb(122, 65, 0);
  font-size: 30px;
@@ -123,23 +114,24 @@ nav ul {
 
 nav li a { 
     display:        block;
-    block-size:     auto ;
+    block-size:     120px;
     color:          black;
     text-align:     left;
-    padding:        14px 16px;
+    padding:        30px ;
     text-decoration: none;
-    
+    font-size:      17px;
     
 }
 
 nav li a:hover {
     color:            rgb(211, 140, 9);
     background-color: black;
+    block-size:       150px;
 }
 
 nav li a.active {
     background-color: rgb(211, 140, 9);
-    
+    color:            black;
 }
 
 
