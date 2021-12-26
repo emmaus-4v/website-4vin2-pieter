@@ -2,8 +2,35 @@
 * {
     overflow:       hidden; /* zorgt ervoor dat boxen de hoogte hebben van wat erin zit */ 
     box-sizing:     content-box;
-    border:         2px solid red;
     
+}
+
+/*hierin alle code voor de eerste openingspagina*/
+
+.index {
+    margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.link-containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.voorbeeldfout {
+    font-size:xx-large;
+    color:chartreuse;
+    /*zoals u ziet word dit niet toegepast op de openingspagine. de 2 stukken hierboven, .index en .link-containers doen 
+    het dus ook niet. deze samen met nog wat extras dat nu toch niet nodig is zouden moeten zorgen voor 5 grote kolommen
+    die elk met evt een hover animatie de paginas zouden laten zien. */
 }
 
 /* Basislayout */
@@ -14,7 +41,7 @@ html, body {
     padding:        0;
     background-color:#EEEEEE;  
     
-    color:          #303030;
+    color:          #ffffff;
     font:            Verdana, Arial, Sans-Serif;
     /*alle achtergrondinstellingen*/
     background-image: url(/afbeeldingen/tiger-3.jpg);
@@ -39,8 +66,9 @@ article {
 
 
 header {
-    color:          skyblue;
+    color:          rgb(245, 109, 36);
     text-align:     center;
+    font-size:4em;
 }
 
 
@@ -67,35 +95,31 @@ img.foto1 {
     
 
 .smalltext {
-    font-size:      0.7em;
+    font-size:      1em;
 }
 
-a {
-    color:          skyblue;
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* inhoud en menu */
 
-.inhoudmenu 
+.terug {
+    display: block;
+    float: left;
+    color: white;
+    font-size:xx-large;
+    width: 180px;
 
-
+}
 
 
 
 .inhoud {
 float:              left;
  margin-left:       15%;
- width:             80%;
+ width:             85%;
  
  font-family:'Trebuchet MS';
  color:rgb(255, 255, 255);
  font-size: 30px;
 }
-
-
 
