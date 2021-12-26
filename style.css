@@ -110,7 +110,14 @@ img.foto1 {
     width: 180px;
 
 }
+.verder {
+    display: block;
+    float: right;
+    color: white;
+    font-size:xx-large;
+    width: 180px;
 
+}
 
 
 .inhoud {
