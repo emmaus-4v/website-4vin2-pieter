@@ -17,10 +17,8 @@ html, body {
     color:          #303030;
     font:            Verdana, Arial, Sans-Serif;
     /*alle achtergrondinstellingen*/
-    background-image: url(/afbeeldingen/background.jpg);
-    
-     
-    
+    background-image: url(/afbeeldingen/reticular_tissue.png);
+    background-repeat:repeat;    
 }
 
 
