@@ -1,8 +1,8 @@
 /* Basisinstellingen */
 * {
-    overflow:       hidden; /* zorgt ervoor dat boxen de hoogte hebben van wat erin zit */
-    box-sizing:     border-box;
-    border:         2px solid red; 
+    overflow:       hidden; /* zorgt ervoor dat boxen de hoogte hebben van wat erin zit */ 
+    box-sizing:     content-box;
+    border:         2px solid red;
     
 }
 
@@ -17,14 +17,17 @@ html, body {
     color:          #303030;
     font:            Verdana, Arial, Sans-Serif;
     /*alle achtergrondinstellingen*/
-    background-image: url(/afbeeldingen/reticular_tissue.png);
-    background-repeat:repeat;    
+    background-image: url(/afbeeldingen/tiger-3.jpg);
+    background-repeat:no-repeat;    
+    background-size:100%;
+    background-attachment: fixed;
+    
 }
 
 
 main {
     margin:         0 auto;
-    height:         100%;
+    /*height:         100%;*/
     width:          1200px;
     position:       relative;
 }
@@ -81,12 +84,7 @@ a:hover {
 .inhoudmenu 
 
 
-.menu {
-    position:       fixed; 
-    float:left;
-    margin-top:-100px;
-    width:          180px ;
-}
+
 
 
 .inhoud {
@@ -95,40 +93,9 @@ float:              left;
  width:             80%;
  
  font-family:'Trebuchet MS';
- color:rgb(122, 65, 0);
+ color:rgb(255, 255, 255);
  font-size: 30px;
 }
 
-/* navigatiebalk */
-nav ul { 
-    list-style-type:none;
-    margin-right:   5px;
-    border: solid   10px black;
-    background-color: lightgrey;
-}
-
-
-
-nav li a { 
-    display:        block;
-    block-size:     120px;
-    color:          black;
-    text-align:     left;
-    padding:        30px ;
-    text-decoration: none;
-    font-size:      17px;
-    
-}
-
-nav li a:hover {
-    color:            rgb(211, 140, 9);
-    background-color: black;
-    block-size:       150px;
-}
-
-nav li a.active {
-    background-color: rgb(211, 140, 9);
-    color:            black;
-}
 
 
