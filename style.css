@@ -8,26 +8,26 @@
 /*hierin alle code voor de eerste openingspagina*/
 
 .index {
-    margin: 0;
-  height: 100vh;
-  display: grid;
+    margin:         0;
+  height:           100vh;
+  display:          grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
 
 .link-containers {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    position: relative;
-    z-index: 0;
+    justify-content:center;
+    align-items:    center;
+    height:         100%;
+    position:       relative;
+    z-index:        0;
 }
 
 .voorbeeldfout {
-    font-size:xx-large;
-    color:chartreuse;
+    font-size:      100px;
+    color:          chartreuse;
     /*zoals u ziet word dit niet toegepast op de openingspagine. de 2 stukken hierboven, .index en .link-containers doen 
     het dus ook niet. deze samen met nog wat extras dat nu toch niet nodig is zouden moeten zorgen voor 5 grote kolommen
     die elk met evt een hover animatie de paginas zouden laten zien. */
@@ -37,24 +37,22 @@
 
 html, body {
     overflow:       visible;
-    /*height:         100%; */
     padding:        0;
     background-color:#EEEEEE;  
     
     color:          #ffffff;
-    font:            Verdana, Arial, Sans-Serif;
+    font:           Verdana, Arial, Sans-Serif;
     /*alle achtergrondinstellingen*/
-    background-image: url(/afbeeldingen/tiger-3.jpg);
-    background-repeat:no-repeat;    
-    background-size:100%;
-    background-attachment: fixed;
+    background-image:       url(/afbeeldingen/tiger-3.jpg);
+    background-repeat:      no-repeat;    
+    background-size:        100%;
+    background-attachment:  fixed;
     
 }
 
 
 main {
     margin:         0 auto;
-    /*height:         100%;*/
     width:          1200px;
     position:       relative;
 }
@@ -68,14 +66,15 @@ article {
 header {
     color:          rgb(245, 109, 36);
     text-align:     center;
-    font-size:4em;
+    font-size:      4em;
 }
 
 
 footer {
     text-align:     center;
     padding-bottom: 10px;
-    
+    position:       relative;
+
 }
 
 
@@ -86,12 +85,10 @@ img.foto1 {
     margin:         5px;
     padding-left:   15px;
 }
-.foto2 {
-    float:          right;
-    margin:         5px;
-    padding-left:   15px;
-}
-   
+
+   .groter{
+       size: 200px;
+   }
     
 
 .smalltext {
@@ -103,19 +100,19 @@ img.foto1 {
 /* inhoud en menu */
 
 .terug {
-    display: block;
-    float: left;
-    color: white;
-    font-size:xx-large;
-    width: 180px;
+    display:        block;
+    float:          left;
+    color:          white;
+    font-size:      xx-large;
+    width:          180px;
 
 }
 .verder {
-    display: block;
-    float: right;
-    color: white;
-    font-size:xx-large;
-    width: 180px;
+    display:        block;
+    float:          right;
+    color:          white;
+    font-size:      xx-large;
+    width:          180px;
 
 }
 
@@ -125,8 +122,8 @@ float:              left;
  margin-left:       15%;
  width:             85%;
  
- font-family:'Trebuchet MS';
- color:rgb(255, 255, 255);
- font-size: 30px;
+ font-family:       'Trebuchet MS';
+ color:             rgb(255, 255, 255);
+ font-size:         30px;
 }
 
