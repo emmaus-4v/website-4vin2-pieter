@@ -16,7 +16,11 @@ html, body {
     
     color:          #303030;
     font:            Verdana, Arial, Sans-Serif;
-    background-image: url();
+    /*alle achtergrondinstellingen*/
+    background-image: url(/afbeeldingen/background.jpg);
+    
+     
+    
 }
 
 
@@ -29,7 +33,7 @@ main {
 
 
 article {
-    text-align:     justify;
+    text-align:     left;
 }
 
 
@@ -100,14 +104,9 @@ float:              left;
 /* navigatiebalk */
 nav ul { 
     list-style-type:none;
-   
     margin-right:   5px;
     border: solid   10px black;
-    
-
     background-color: lightgrey;
-  
- 
 }
 
 
