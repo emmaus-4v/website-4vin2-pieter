@@ -86,10 +86,15 @@ img.foto1 {
     padding-left:   15px;
 }
 
-   .groter{
+   img.groter{
        size: 200px;
    }
     
+   img.foto2 {
+       float:       right;
+       margin:      5px;
+       padding-top: 300px;
+   }
 
 .smalltext {
     font-size:      1em;
